@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit, VERSION } from '@angular/core';
+import { AppService } from './app.service';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'test';
+export class AppComponent{
 }
